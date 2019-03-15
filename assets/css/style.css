@@ -3,12 +3,12 @@
 
 /*------------------------------------------Colours*/
 
-.bg-color-name-title{
+.bg-color-name-title {
     background-color: #676767;
-    
+
 }
 
-.bg-color-three-reasons{
+.bg-color-three-reasons {
     background-color: #fff;
 }
 
@@ -20,19 +20,23 @@
     background-color: #9b59b6;
 }
 
-.ui-menu-color-home{
+.bg-color-contact {
+    background-color: #fff;
+}
+
+.ui-menu-color-home {
     background-color: #e67e22;
 }
 
-.ui-menu-color-resume{
+.ui-menu-color-resume {
     background-color: #9b59b6;
 }
 
-.ui-menu-color-contact{
+.ui-menu-color-contact {
     background-color: #3498db;
 }
 
-.ui-menu-color-download{
+.ui-menu-color-download {
     background-color: #525252;
 }
 
@@ -42,7 +46,7 @@
 h1,
 h2,
 h3,
-h4{
+h4 {
     margin: 0;
 }
 
@@ -51,14 +55,14 @@ h4{
 }
 
 .general-sub {
-    font-family: "Exo" , sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
 
 .inline-block {
     display: inline-block;
-    
+
 }
 
 .row-table {
@@ -73,7 +77,7 @@ h4{
 
 .history-heading,
 .section-heading {
-    font-family: "Exo" , sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -81,16 +85,16 @@ h4{
 
 /*------------------------------------------Heading*/
 
-header{
+header {
     margin: 0;
 }
 
-.heading{
+.heading {
     margin-left: 50px;
 }
 
 
-.logo{
+.logo {
     background: url("../images/rosie.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -102,28 +106,28 @@ header{
 }
 
 
-.name{
+.name {
     font-family: "Exo", Sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color:#fff;
+    color: #fff;
 }
 
-.title{
+.title {
     font-family: "Roboto", Sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color:#fff;
+    color: #fff;
 }
 
 .list-inline-item:not(:last-child) {
-    margin:0;
+    margin: 0;
 }
 
-.menucontainer{
+.menucontainer {
     font-size: 0;
 }
 
@@ -131,12 +135,12 @@ header{
     margin: 0;
 }
 
-#nav li{
+#nav li {
     font-size: 14px;
     padding: 0;
 }
 
-.menuitem{
+.menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
@@ -198,12 +202,12 @@ footer {
 .cv-pdf i:hover {
     color: #e84610;
 }
-    
+
 .social-links {
     padding-bottom: 15px;
-}    
+}
 
-.social-links li a i { 
+.social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -217,13 +221,13 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-}       
-    
-    
+}
+
+
 .social-links li a i:hover {
     background: #e84610;
-}        
-    
+}
+
 #footer-details {
     padding: 20px;
 }
@@ -241,7 +245,6 @@ footer {
 }
 
 /*------------------------------------------Personal Info*/
-
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -304,7 +307,7 @@ footer {
 .history-heading {
     color: #fafafa;
     margin-bottom: 50px;
-}     
+}
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -341,15 +344,42 @@ footer {
     border-radius: 12px;
     content: '';
     background: #fafafa;
-}    
-    
+}
+
 .history-items {
     margin-bottom: 30px;
 }
-    
-    
-    
-    
+
+/*------------------------------------------Contact Form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button [type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
 
 
+/*------------------------------------------Media Queries*/
 
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
